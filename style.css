@@ -16,8 +16,8 @@ li {
 .container {
     max-width: 1400px;
     width: 100%;
-    padding: 21px 0px;
-    margin: 0 auto;
+    padding: 0 100px;
+    margin:0 auto;
 }
 
 /* Info start */
@@ -193,7 +193,7 @@ li {
     max-width: 340px;
     width: 100%;
     height: 100%;
-    padding:10px 50px ;
+    padding: 10px 50px;
     background: black;
     border: 3px solid rgb(255, 255, 255);
 }
@@ -206,16 +206,18 @@ li {
     background: url(./img/unnamed\ 1.png) no-repeat center center / cover;
 }
 
-.section__cards{
+.section__cards {
     background: #393636;
     display: flex;
     justify-content: space-between;
-    padding: 15px 40px;
+    padding: 50px 40px;
+    flex-wrap: wrap;
 }
 
-.section__card{
+.section__card {
     max-width: 400px;
     width: 100;
+    margin: 20px 0;
 }
 
 
@@ -242,4 +244,54 @@ li {
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
+}
+
+.section__map{
+    width: 100%;
+    padding:0 0 30px;
+}
+
+.section__map h2 {
+    text-align: center;
+    color: #69CF17;
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.street__info{
+    width: 100%;
+    background: black;
+    padding: 40px 0;
+}
+
+.section__info-img{
+    position: absolute;
+    background: linear-gradient(0deg, rgba(12, 12, 12, 0.44) 0%, rgba(12, 12, 12, 0.44) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.section__info-img{
+    position: relative;
+}
+
+.section__info-card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section__info-card p{
+    color: white;
+    max-width: 1110px;
+    width: 100%;
+    text-align: justify;
+    font-size: 18px;
 }
