@@ -116,13 +116,7 @@ li {
     height: 90vh;
     display: flex;
     align-items: center;
-    background: url(./img/food-burger-wallpaper-preview\ 1.jpgecho "# burger" >> README.md
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin git@github.com:fah020/burger.git
-    git push -u origin main) no-repeat center center / cover;
+    background: url(./img/food-burger-wallpaper-preview\ 1.jpg) no-repeat center center / cover;
 }
 
 .section__bg {
